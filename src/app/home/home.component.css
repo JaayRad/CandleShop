@@ -1,0 +1,39 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a{
+    width: 20rem;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color:#fda150;
+}
+li a:hover{
+    cursor: pointer;
+    opacity: .9;
+    transition: 0.3s ease-in-out;
+}
+
+
+.content{
+    text-align: center;
+}
+.content a{
+    background-color: #fda150;
+    color: #fff;
+    height: 2em;
+    justify-content: center;
+}
+
+.content a:hover{
+    background-color: #fff;
+    color: #fda150;
+    transition: all 0.3 ease-in-out;
+}
